@@ -1,3 +1,0 @@
-(in-package :qix-glue)
-
-

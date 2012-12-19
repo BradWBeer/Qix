@@ -1,3 +1,105 @@
 * Qix
 
-** Currently this [[http://www.youtube.com/watch?v=TV2kAcd5E20][presentation]] contains more information.
+** What is Qix?
+
+Qix an application, a user interface and a data format which work together to allow users to create new applications and documents. The interface consists of simple interfaces for creating and editing plain text, rich text, vector graphics, bitmaps and 3D models. It also allows for the sharing and transformation of each item's data. Larger applications can be created using these simple parts while not requiring the user to learn any new interfaces. Create spreadsheets, rich presentations or a videogame. Anything is possible when users can create what they need.
+
+I made a [[http://www.youtube.com/watch?v=TV2kAcd5E20][presentation]] to help explain Qix's concepts.
+
+** Development Path
+
+Here are a list of steps required to make Qix in rough chronlogical order:
+
+*** Create Base Application 
+
+Start with a blank running application. Qix will use CLinch, a graphics library custom made for such applications. Once CLinch is stable, Qix can begin in earnest.
+
+*** Create a Text Editor Functions
+
+Features should include: 
+
+**** Text Entry and Delete
+
+**** Insert and Overwrite Modes
+
+**** Text Cursor
+
+**** Arrow Key Movement
+
+*** Create "Click" Tools
+
+Tools for:
+
+**** Determining Where the User Has Clicked on a Mesh
+
+**** Selecting Text by clicking and draging.
+
+
+*** Create GUI Controls
+
+**** Buttons
+
+**** Halos
+
+**** Text Buffers
+
+**** Multi-Select Boxes
+
+**** Drop Down Boxes
+
+**** Draw "Lines"
+
+**** Billboard Items
+
+
+*** Create 3D Editor Functions
+
+**** Translate XYZ
+
+**** Scale XYZ
+
+**** Resize XYZ
+
+**** Rotate XYZ
+
+**** Add/Remove Nodes
+
+**** Edit Vertexes
+
+**** Edit Faces
+
+
+
+*** Create Rich Text Editor Functions
+
+Add functionality to edit the attributes of text:
+
+**** Fonts
+
+**** Size
+
+**** Bold
+
+**** Italics
+
+**** Color
+
+**** Background Color
+
+**** Underline
+
+**** Strikethrough
+
+**** Lists
+
+**** SuperScript
+
+**** SubScript
+
+*** Create Vector Graphics Editing Functions
+
+*** Create Raster Graphics Editor Functions
+
+*** Create "Pipe" Functionality
+
+
